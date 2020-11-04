@@ -1,0 +1,30 @@
+a.d{
+    color: rgb(107, 90, 205);
+}
+input{
+    padding: 5px;
+}
+select{
+    padding: 5px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+}
+div.a{
+    color: white;
+    border: groove;
+    border-color: blue;
+    background-color: rgb(107, 90, 205);
+}
+h1.b{
+    color: green;
+}
+h2.c{
+    color: purple;
+}
+td.f{
+    width: 145px;
+    padding: 10px;
+}

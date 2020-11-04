@@ -1,0 +1,420 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+#header-top{
+    background-color: rgb(49, 109, 195);
+    color: rgb(247, 248, 250);
+    text-align: center;
+}
+.p {
+    margin: 10px 0 10px 0;
+}
+.change {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.s {
+    padding-right: 25px;
+    color: rgb(247, 248, 250);
+}
+.bb {
+    display: inline;
+    border: 2px solid red;
+    color: gray;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.slogo {
+    height: 55px;
+    width: 200px;
+}
+.nav {
+    background-color: rgb(247, 248, 250);
+}
+.spa {
+    display: flex;
+    padding: 6px 0 6px;
+}
+.spa2 {
+    flex: 1;
+}
+.navbo {
+    margin: 10px auto;
+}
+.navbo:link, .navbo:visited  {
+    background-color: rgb(49, 109, 195);
+    color: rgb(247, 248, 250);
+    border-radius: 25px;
+    padding: 6px 15px;
+    text-align: center;
+    font-weight: 350;
+    display: inline-block;
+}
+.dropbtn:link, .dropbtn:visited  {
+    color: rgb(50, 50, 50);
+    border-radius: 25px;
+    padding: 6px 15px;
+    text-align: center;
+    font-weight: 350;
+    display: inline-block;
+}
+.dropbtn:hover {
+    color: rgb(247, 248, 250);
+    background-color: rgb(49, 109, 195);
+}
+.dropdown {
+    color: rgb(247, 248, 250);
+    display: inline-block;
+}
+.down {
+    margin-left: 4px;
+}    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    /* max-height: auto; */
+}
+  
+.dropdown-content a {
+    background-color: white;
+    font-size: 14px;
+    float: none;
+    color: rgb(100, 100, 100);
+    padding: 6px 9px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgb(49, 109, 195);
+    color: rgb(247, 248, 250);
+    text-align: center;
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.rig {
+    float: right;
+    margin-top: 3px;
+}
+.tex {
+    background-color: yellow;
+    text-align: center;
+}
+.size {
+    background-color: rgb(247, 248, 250);
+    text-align: center;
+}
+.intro {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.para {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    line-height: 25px;
+    color: gray;
+    text-align: justify;
+}
+.space {
+    padding-bottom: 90px;
+}
+.introduction {
+    margin-top: 50px;
+    color: rgb(38, 85, 232);
+    font-weight: bolder;
+    display: inline-block;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.green {
+    color: rgb(66, 121, 0);
+    font-weight: bolder;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+}
+.saylaniicon {
+    display: inline-block;
+    width: 45px;
+    /* margin-bottom: 20px; */
+}
+#medical {
+    text-align: center;
+    background-color: rgb(38, 85, 232);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.month {
+    padding: 0;
+}
+.food {
+    width: 45px;
+}
+.num {
+    color: rgb(247, 248, 250);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 55px;
+}
+.one {
+    color: rgb(247, 248, 250);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 15px;
+    display: inline;
+}
+.two {
+    color: rgb(0, 255, 0);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 18px;
+    display: inline;
+}
+#doing {
+    text-align: center;
+    background-color: rgb(247, 248, 250);
+}
+.onl {
+    overflow: hidden;
+    width: 360px;
+    margin: 0 0 30px 0;
+    box-shadow: 7px 10px 15px 5px rgb(210, 210, 210);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.icon-line {
+    padding-bottom: 40px;
+}
+.sadqa {
+    margin: 0 145px;
+    width: 70px;
+}
+.online {
+    margin: 0;
+    text-align: center;
+    color: rgb(38, 85, 232);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 18px;    
+    padding-top: 20px;
+}
+.welfare {
+    padding-bottom: 30px;
+    width: auto;
+    justify-content: space-between;
+}
+.logo-line {
+    position: relative;
+    top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 37px;
+    height: 1px;
+    background-color: rgb(66, 121, 0);
+}
+#upcoming-projects {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.and {
+    padding: 0;
+}
+.mission-line4 {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 50px;
+    border: 1px solid rgb(66, 121, 0);
+
+}
+.mission-line3 {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 50px;
+    border: 1px solid rgb(66, 121, 0);
+}
+.mission {
+    /* padding: 0; */
+    margin: 0;
+    color: rgb(49, 109, 195);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 25px;   
+}
+.mission-line {
+    position: relative;
+    bottom: 17px;
+    margin-left: 0;
+    width: 50px;
+    border: 1px solid rgb(66, 121, 0);
+}
+.hepatitis1 {
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.hepatitis, .hepatitis2, .hepatitis3 {
+    background-color: rgb(247, 248, 250);
+    margin: 12px 0 12px 0;
+    width: 364px;
+}
+.hepatitis-pic {
+    margin: 20px 0 20px 15px;
+    display: inline-block;
+}
+.hepatitis-pic2 {
+    padding-top: 20px;
+    display: inline-block;
+    color: rgb(38, 85, 232);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 18px;   
+}
+.gallery {
+    /* margin-bottom: 200px; */
+    position: relative;
+    width: auto;
+    display: inline-block;
+} 
+.row1 {
+    align-items: center;
+    margin-bottom: 200px;
+}
+.rashan2 {
+    opacity: 1;
+    display: block;
+    width: 225px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.gallery:hover .rashan2 {
+    opacity: 0.1;
+    border-style: inset;
+    border-width: 7px;
+    border-color: black;
+}
+  
+.gallery:hover .middle {
+    opacity: 1;
+}
+.dot {
+    margin: 3px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(38, 85, 232);
+    border-radius: 50%;
+    display: inline-block;
+}
+.texto {
+    color: white;
+    font-size: 0.9rem;
+}
+.fabi {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+#image-gallery {
+    text-align: center;
+}
+#footer1 {
+    background-color: rgb(37, 39, 46);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer3 {
+    padding-bottom: 10px;
+}
+.footer4 {
+    padding: 20px 0 20px 0px;
+    color: rgb(190, 190, 190);
+}
+.phone {
+    color: rgb(190, 190, 190);
+    color: rgb(66, 121, 0);
+    margin: 0 4px 0 4px;
+}
+.phone1 {
+    margin: 10px 0 10px 0;
+}
+.phone12 {
+    /* margin: 100px 0 10px 0; */
+    display: inline;
+}
+.phone11 {
+    display: inline;
+    margin-right: 15px;
+}
+.useful {    
+    position: relative;
+    bottom: 17px;
+    border: 1px solid rgb(66, 121, 0);
+    width: 55px;
+    margin: 0;
+}
+.useful2 {
+    border-color: rgb(100, 90, 80);
+}
+.useful3 {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(247, 248, 250);
+}
+.contact-us {
+    color: rgb(247, 248, 250);
+    position: relative;
+    bottom: 35px;
+    left: 14px;
+}
+.contact-us2 {
+    color: rgb(247, 248, 250);
+    position: relative;
+    bottom: 35px;
+    left: 40px;
+}
+.contact-us3 {
+    color: rgb(247, 248, 250);
+    position: relative;
+    bottom: 35px;
+    left: 62px;
+}
+.contact-us4 {
+    color: rgb(247, 248, 250);
+    position: relative;
+    bottom: 35px;
+    left: 85px;
+}
+#copy {
+    background-color: rgb(38, 85, 232);
+}
+.copyright {
+    padding: 15px 0 15px 0;
+    color: rgb(247, 248, 250);
+    font-size: 13px;
+}
+.copy-right {
+    padding: 0;
+}

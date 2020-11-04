@@ -1,0 +1,53 @@
+* {
+    font-family: cursive;
+}
+.link a:link, a:visited {
+    text-decoration: none;
+}
+.link a:hover {
+    color: wheat;
+}
+.color-black {
+    height: 8px;
+    background-color: black;
+}
+#welcome {
+    background-color: gray;
+}
+.name {
+    color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.s {
+    padding: 20px;
+    color: purple;
+}
+.ques {
+    background-color: purple;
+}
+.ques2 {
+    margin: 0;
+    padding: 20px;
+    color: gray;
+}
+#Projecthead {
+    background-color: gray;
+}
+.project-space {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.projects-num {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.project-name {
+    color: purple;
+}
+.project-num1 {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: purple;
+}
